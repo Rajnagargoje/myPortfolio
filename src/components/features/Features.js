@@ -17,32 +17,26 @@ const Features = () => {
       
       <div className='grid grid-cols-3 gap-20'>
         <Card title='Web Developer'
-              des="To work in healthy, innovative and challenging environment extracting the best out of me,
-            which is "
+              des="Designing and building responsive and mobile-friendly websites optimized for different devices and browsers."
                 icon={<FaGlobe/>}
               />
-        <Card title='Java Developer'
-              des="To work in healthy, innovative and challenging environment extracting the best out of me,
-            which is"
+        <Card title='Full Stack Java Developer'
+              des="Designing,implementing and maintaining java-based software and application."
               icon={<FaJava/>} />
         <Card title="Business Stratagy"
-              des="To work in healthy, innovative and challenging environment extracting the best out of me,
-            which"
+              des="Thinking and planing to make a online system to generate a passive income and help to people their daily life. "
             icon={<FaBusinessTime/>} />
     
         <Card  title="Option Trading"
-              des="To work in healthy, innovative and challenging environment extracting the best out of me,
-            which "
+              des="Learning a day trading with index option and try to understand psychology behind the market. "
               icon={<RiStockFill/>} 
               />
         <Card  title="Active Lerner"
-              des="To work in healthy, innovative and challenging environment extracting the best out of me,
-            which "
+              des="An intrested a learning a new things which can be help to be improve life professionaly"
               icon={<SiProgress/>}
               />
         <Card  title="Home Planer"
-              des="To work in healthy, innovative and challenging environment extracting the best out of me,
-            which "
+              des="Work on a daily basis to apply new things to home and try to grow techinically."
               icon={<SiAntdesign/>}
               /> 
       </div>

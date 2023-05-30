@@ -42,33 +42,33 @@ const LeftBanner = () => {
       <div className="flex justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            {" "}
             Find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
+          <a href="https://www.facebook.com/"> <span className="bannerIcon">
               <FaFacebookF />
-            </span>
-            <span className="bannerIcon">
+            </span> </a>
+            
+           <a href="https://instagram.com/g_a_n_e_s_h_n_?igshid=ZGUzMzM3NWJiOQ=="> <span className="bannerIcon">
               <FaInstagram />
-            </span>
-            <span className="bannerIcon">
+            </span></a>
+           <a href="https://www.linkedin.com/in/ganesh-nagargoje-a60531221"> <span className="bannerIcon">
               <FaLinkedin />
-            </span>
+            </span></a>
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            {" "}
+            
             Find me in
           </h2>
           <div className="flex gap-4">
             <span className="bannerIcon">
               <SiTwitter />
             </span>
-            <span className="bannerIcon">
+            <a href="https://github.com/Rajnagargoje"><span className="bannerIcon">
               <SiGithub />
-            </span>
+            </span></a>
             <span className="bannerIcon">
               <SiReact />
             </span>

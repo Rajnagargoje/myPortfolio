@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from '../layouts/Title'
 import ProjectCard from './ProjectCard'
-import { projectOne,projectTwo,projectThree } from '../../assets/index';
+import { projectOne,projectTwo,projectFour,projectSix,projectThree,projectFive } from '../../assets/index';
 
 const Projects = () => {
   return (
@@ -15,34 +15,28 @@ const Projects = () => {
     </div>
     <div className='grid grid-cols-3 gap-14'>
         <ProjectCard title='TextUtills-word editer'
-            des='To work in healthy, innovative and challenging environment extracting the best out of me,
-            which '
+            des='TextUtils is a utility which can be used to manipulate your text in the way you want.'
             src={projectOne}
         />
          <ProjectCard title='Bank Application '
-            des='To work in healthy, innovative and challenging environment extracting the best out of me,
-            which '
+            des='It is used to perform CURD operation. It is developed by using springboot connected with SQL  database.'
             src={projectTwo}
         />
          <ProjectCard title='Catering Service Website'
-            des='To work in healthy, innovative and challenging environment extracting the best out of me,
-            which '
+            des='This website is in under Progress'
             src={projectThree}
         />
          <ProjectCard title='Spotify  clone'
-            des='To work in healthy, innovative and challenging environment extracting the best out of me,
-            which '
-            src={projectOne}
+            des='Designed fully responsive Spotify website clone with music.'
+            src={projectFive}
         />
          <ProjectCard title='Student Registration form'
-            des='To work in healthy, innovative and challenging environment extracting the best out of me,
-            which '
-            src={projectTwo}
+            des='This form get all student details about personal information and saved to SQL database.'
+            src={projectFour}
         />
          <ProjectCard title='Water Level Detection and Controlling Syatem App'
-            des='To work in healthy, innovative and challenging environment extracting the best out of me,
-            which '
-            src={projectThree}
+            des='It is IOT Based project to handle iot devices using mobile application like motor ON/OFF, Water Level and power Supply.'
+            src={projectSix}
         />
         
        

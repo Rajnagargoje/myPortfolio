@@ -20,7 +20,7 @@ const Education = () => {
             title="B.Tech (computer science)"
             subTitle="Kolhapur Institute of Technology's College of Engineering (Autonomous) Kolhapur."
             result="72.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            des="B Tech CS course completed four-year undergraduate course that includes 8 semesters. "
           />
           <ResumeCard
             title=" Higher Secondary education (HSC)"
@@ -32,7 +32,7 @@ const Education = () => {
             title="Secondray School education (SSC)"
             subTitle="Vaidynath college parali-vaijnath"
             result="77.60%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            des="Primary education covers two phases on the International standard classification of education scale"
           />
         </div>
       </div>
@@ -51,19 +51,19 @@ const Education = () => {
             title="Java FullStack Developer"
             subTitle="Sathya Technology"
             result="Hydrabad"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            des="Work with developement teams and product managers to design client-side and server-side applications."
           />
           <ResumeCard
             title="Web Developer"
             subTitle="Revolution It Solution"
             result="Kolhapur"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            des="To work on a project to develope a UI design of a website and make it intractive. "
           />
           <ResumeCard
             title="AI-ML Virtual Internship"
             subTitle="EduSkills - AWS Academy"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            result="Virtual"
+            des="The basic understaing of artificial intelligence and machine learning in the virtual intership. "
           />
         </div>
       </div>

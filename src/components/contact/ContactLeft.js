@@ -19,9 +19,7 @@ const ContactLeft = () => {
           Full Stack Java Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum dolor Quam eum in dolores lerferendis praesentium
-          nesciunt, tenetur sed incidunt molestias asperiores assumenda
-          consequuntur?
+         Aspiring to work with an organization that offers responsible position wherei can utilize my skill and capabilities.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           phone: <span className="text-lightText">+91 7057261298</span>

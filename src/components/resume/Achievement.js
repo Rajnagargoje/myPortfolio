@@ -8,62 +8,62 @@ const Achievement = () => {
     <div>
       <div className="py-20 flex flex-col gap-4">
         <p className="text-sm text-designColor tracking-[4px] uppercase">
-          1998 - 2010
+          2012 - 2018
         </p>
-        <h2 className="text-4xl font-bold ">Achievement </h2>
+        <h2 className="text-4xl font-bold ">Extra-Curricular Activity </h2>
       </div>
       <div
         className='className="mt-14  h-[1000px] border-l-[6px] border-l-black
       border-opacity-30 flex flex-col gap-10 w-full'
       >
         <ResumeCard
-          title="Secondray School education"
-          subTitle="Vaidynath college parali-vaijnath"
-          result="61.38%"
-          des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+          title="National Workshop on Article-370 and Act-2019"
+          subTitle="Department of political Science"
+          result="Completed"
+          des="Has attended one day Natonal Workshop 'Jammu and Kashmir Article-370 and  Reorganisation Act-2019'. "
         />
         <ResumeCard
-          title="Secondray School education"
-          subTitle="Vaidynath college parali-vaijnath"
-          result="61.38%"
-          des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+          title="RashtraPita Mahatma Gandhi Quiz"
+          subTitle="Rajarshi Shahu Mahavidyalaya (Autonomous) college "
+          result="Quiz"
+          des="International Non Violence Day occasion arranged a online Technical java Quiz Performed Excellent."
         />
         <ResumeCard
-          title="Secondray School education"
-          subTitle="Vaidynath college parali-vaijnath"
-          result="61.38%"
-          des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+          title="Mastering Interview Questions"
+          subTitle="Great Learning online platfoem"
+          result="Intrview"
+          des="Completed a how to perform well in intrview course certificate"
         />
       </div>
     </div>
     <div>
       <div className="py-20 flex flex-col gap-4">
         <p className="text-sm text-designColor tracking-[4px] uppercase">
-          2022 - 2023{" "}
+          2018 - 2023
         </p>
-        <h2 className="text-4xl font-bold"> Job Experience</h2>
+        <h2 className="text-4xl font-bold"> Achievement</h2>
       </div>
       <div
         className='className="mt-14  h-[1000px] border-l-[6px] border-l-black
       border-opacity-30 flex flex-col gap-10 w-full'
       >
         <ResumeCard
-          title="Secondray School education"
-          subTitle="Vaidynath college parali-vaijnath"
-          result="61.38%"
-          des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+          title="PIONEER National Event"
+          subTitle="KIT's College of Engineering "
+          result="Member"
+          des="Worked as a technical team member in PIONEER national level event. "
         />
         <ResumeCard
-          title="Secondray School education"
-          subTitle="Vaidynath college parali-vaijnath"
-          result="61.38%"
-          des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+          title="CODIGO coding competiton"
+          subTitle="KIT's College of Engineering "
+          result="CODIGO"
+          des="Participated in 'CODIGO' coding competiton event arranged by CSi committee"
         />
         <ResumeCard
-          title="Secondray School education"
-          subTitle="Vaidynath college parali-vaijnath"
-          result="61.38%"
-          des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+          title="Computer Society of India"
+          subTitle="Education Directorate, National Headquarters"
+          result="CSI"
+          des="Joined  Member of a Computer Society of India. "
         />
       </div>
     </div>

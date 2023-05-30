@@ -8,62 +8,62 @@ const Experience = () => {
       <div>
         <div className="py-20 flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
-            1998 - 2010{" "}
+            2018 - 2023
           </p>
-          <h2 className="text-4xl font-bold">Experience</h2>
+          <h2 className="text-4xl font-bold"> Certifications</h2>
         </div>
         <div
           className='className="mt-14  h-[1000px] border-l-[6px] border-l-black
         border-opacity-30 flex flex-col gap-10 w-full'
         >
           <ResumeCard
-            title="Secondray School education"
-            subTitle="Vaidynath college parali-vaijnath"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            title="Computer Network"
+            subTitle="KIT's College of Engineering"
+            result="KITCOEK"
+            des="The Workshop conducted by college on networking understand the basic protocols. "
           />
           <ResumeCard
-            title="Secondray School education"
-            subTitle="Vaidynath college parali-vaijnath"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            title="Google Cloud Certifications"
+            subTitle="Google Cloud Platform Gurus, Udemy"
+            result="Udemy"
+            des="Complited the google cloud course which certified by udemy under the college activity."
           />
           <ResumeCard
-            title="Secondray School education"
-            subTitle="Vaidynath college parali-vaijnath"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            title="Completion of C Training"
+            subTitle=" Spoken Tutorial Project, IIT Bombay"
+            result="IIT Bombay"
+            des="Under the guidence of HOD, The C language Course complited which is offered by IIT Bombay."
           />
         </div>
       </div>
       <div>
         <div className="py-20 flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px] uppercase">
-            2022 - 2023{" "}
+            2021 - 2023
           </p>
-          <h2 className="text-4xl font-bold"> Job Experience</h2>
+          <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div
           className='className="mt-14  h-[1000px] border-l-[6px] border-l-black
         border-opacity-30 flex flex-col gap-10 w-full'
         >
           <ResumeCard
-            title="Secondray School education"
-            subTitle="Vaidynath college parali-vaijnath"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            title="Java FullStack Developer"
+            subTitle="Sathya Technology"
+            result="Hydrabad"
+            des="Work with developement teams and product managers to design client-side and server-side applications."
           />
           <ResumeCard
-            title="Secondray School education"
-            subTitle="Vaidynath college parali-vaijnath"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            title="Web Developer"
+            subTitle="Revolution It Solution"
+            result="Kolhapur"
+            des="To work on a project to develope a UI design of a website and make it intractive. "
           />
           <ResumeCard
-            title="Secondray School education"
-            subTitle="Vaidynath college parali-vaijnath"
-            result="61.38%"
-            des="Secondray education or post primary education covers two phases on the International standard classification of education scale"
+            title="AI-ML Virtual Internship"
+            subTitle="EduSkills - AWS Academy"
+            result="Virtual"
+            des="The basic understaing of artificial intelligence and machine learning in the virtual intership. "
           />
         </div>
       </div>
