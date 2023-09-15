@@ -6,10 +6,10 @@ import Achievement from './Achievement';
 import Experience from './Experience';
 
 function Resume() {
-  const[educationData, seteducationData] = useState(true);
-  const[skillData, setskillData] = useState(false);
-  const[experienceData, setexperienceData] = useState(false);
-  const[achievementData, setachievementData] = useState(false);
+  const [educationData, seteducationData] = useState(true);
+  const [skillData, setskillData] = useState(false);
+  const [experienceData, setexperienceData] = useState(false);
+  const [achievementData, setachievementData] = useState(false);
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
@@ -19,7 +19,7 @@ function Resume() {
         />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-4">
+        <ul className="w-full grid grid-cols-1 md:grid-cols-3 mdl:grid-cols-4 xl:grid-cols-4">
           <li
             onClick={() =>
               seteducationData(true) &
@@ -27,11 +27,10 @@ function Resume() {
               setexperienceData(false) &
               setachievementData(false)
             }
-            className={`${
-              educationData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
+            className={`${educationData
+              ? "border-designColor rounded-lg"
+              : "border-transparent"
+              } resumeLi`}
           >
             Education
           </li>
@@ -43,9 +42,8 @@ function Resume() {
               setexperienceData(false) &
               setachievementData(false)
             }
-            className={`${
-              skillData ? "border-designColor rounded-lg" : "border-transparent"
-            } resumeLi`}
+            className={`${skillData ? "border-designColor rounded-lg" : "border-transparent"
+              } resumeLi`}
           >
             Professional Skills
           </li>
@@ -56,13 +54,12 @@ function Resume() {
               setexperienceData(true) &
               setachievementData(false)
             }
-            className={`${
-              experienceData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
+            className={`${experienceData
+              ? "border-designColor rounded-lg"
+              : "border-transparent"
+              } resumeLi`}
           >
-            Experience
+            Certifications
           </li>
           <li
             onClick={() =>
@@ -71,11 +68,10 @@ function Resume() {
               setexperienceData(false) &
               setachievementData(true)
             }
-            className={`${
-              achievementData
-                ? "border-designColor rounded-lg"
-                : "border-transparent"
-            } resumeLi`}
+            className={`${achievementData
+              ? "border-designColor rounded-lg"
+              : "border-transparent"
+              } resumeLi`}
           >
             Achievements
           </li>

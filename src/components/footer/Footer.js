@@ -4,24 +4,37 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto grid grid-cols-4 gap-8 py-20 border-b-[1px] border-b-black">
-      <div className="w-full h-full flex flex-col gap-8  ">
-        <img className="w-[120px] h-[120px] ml-12 " src={logo} alt="logo" />
+    <div className="w-full h-auto grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-4 lgl:gap-8 py-10 lgl:py-20 border-b-[1px] border-b-black text-center lgl:text-start">
+      <div className="w-full h-full flex flex-col  gap-8 items-center lgl:items-start ">
+        <img
+          className="w-[120px] h-[120px] ml-0 lgl:ml-12 "
+          src={logo}
+          alt="logo"
+        />
         <div className="flex gap-4">
           <div>
-            <span className="bannerIcon">
-              <FaFacebookF />
-            </span>
+            <a href="https://www.facebook.com/">
+              {" "}
+              <span className="bannerIcon">
+                <FaFacebookF />
+              </span>
+            </a>
           </div>
           <div>
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
+            <a href="https://www.linkedin.com/in/ganesh-nagargoje-a60531221">
+              {" "}
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
           <div>
-            <span className="bannerIcon">
-              <FaTwitter />
-            </span>
+            <a href="https://twitter.com/?lang=en">
+              {" "}
+              <span className="bannerIcon">
+                <FaTwitter />
+              </span>
+            </a>
           </div>
         </div>
       </div>
@@ -37,21 +50,21 @@ const Footer = () => {
             >
               About
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
-                group-hover:translate-x-0 transition-transform
-                duration-300 "
+                group-hover:translate-x-0 transition-transform 
+                duration-300"
               ></span>
             </span>
           </li>
           <li>
             <span
-              className="w-full hover:text-designColor duration-300 
+              className="w-full hover:text-designColor duration-300  
             cursor-pointer text-lg relative group"
             >
               Portfolio
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -65,7 +78,7 @@ const Footer = () => {
             >
               Services
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -77,9 +90,9 @@ const Footer = () => {
               className="w-full hover:text-designColor duration-300 
             cursor-pointer text-lg relative group"
             >
-             Blog
+              Blog
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -93,7 +106,7 @@ const Footer = () => {
             >
               Contact
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -102,7 +115,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-     
+
       <div className="w-full h-full">
         <h3 className="text-xl uppercase text-designColor tracking-wider">
           Resources
@@ -115,7 +128,7 @@ const Footer = () => {
             >
               Authentication
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -129,7 +142,7 @@ const Footer = () => {
             >
               System Status
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -143,7 +156,7 @@ const Footer = () => {
             >
               Terms and Condition
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -155,9 +168,9 @@ const Footer = () => {
               className="w-full hover:text-designColor duration-300 
             cursor-pointer text-lg relative group"
             >
-             Pricing
+              Pricing
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -171,7 +184,7 @@ const Footer = () => {
             >
               Over Right
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -192,7 +205,7 @@ const Footer = () => {
             >
               Documentation
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -206,7 +219,7 @@ const Footer = () => {
             >
               Authentication
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -218,9 +231,9 @@ const Footer = () => {
               className="w-full hover:text-designColor duration-300 
             cursor-pointer text-lg relative group"
             >
-             API Reference
+              API Reference
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -232,9 +245,9 @@ const Footer = () => {
               className="w-full hover:text-designColor duration-300 
             cursor-pointer text-lg relative group"
             >
-             Support
+              Support
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "
@@ -248,7 +261,7 @@ const Footer = () => {
             >
               Open Source
               <span
-                className="absolute h-[1px] w-full inline-flex
+                className="absolute h-[1px] w-full inline-flex invisible lgl:visible
                 bg-designColor -bottom-1 left-0 -translate-x-[100%]
                 group-hover:translate-x-0 transition-transform
                 duration-300 "

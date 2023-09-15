@@ -3,9 +3,20 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
-      fontFamily:{
-        bodyFont:["poppins", "sans-serif"],
-        titleFont:["Montserrat", "sans-serif"],
+      screens: {
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280",
+
+      },
+      fontFamily: {
+        bodyFont: ["poppins", "sans-serif"],
+        titleFont: ["Montserrat", "sans-serif"],
       },
       colors: {
         bodyColor: "#212428",

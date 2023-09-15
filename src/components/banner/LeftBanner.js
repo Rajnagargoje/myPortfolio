@@ -9,6 +9,7 @@ const LeftBanner = () => {
       "Professional Coder.",
       "Full Stack Java Developer.",
       "professional Trader.",
+      "professional Designer.",
     ],
     Loop: true,
     typeSpeed: 20,
@@ -17,10 +18,10 @@ const LeftBanner = () => {
   });
 
   return (
-    <div className="w-1/2 flex flex-col gap-20 ">
+    <div className=" w-full lgl:w-1/2 flex flex-col gap-20 ">
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal"> WELCOME TO MY WORLD</h4>
-        <h2 className="text-6xl font-bold text-white">
+        <h2 className="text-4xl lgl:text-6xl font-bold text-white">
           Hi, I'm
           <span className="text-designColor capitalize"> Ganesh Nagargoje</span>
         </h2>
@@ -39,27 +40,27 @@ const LeftBanner = () => {
           endeavours as an asset to the organization.
         </p>
       </div>
-      <div className="flex justify-between">
+      <div className="flex flex-col lgl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             Find me in
           </h2>
           <div className="flex gap-4">
-          <a href="https://www.facebook.com/"> <span className="bannerIcon">
+            <a href="https://www.facebook.com/"> <span className="bannerIcon">
               <FaFacebookF />
             </span> </a>
-            
-           <a href="https://instagram.com/g_a_n_e_s_h_n_?igshid=ZGUzMzM3NWJiOQ=="> <span className="bannerIcon">
+
+            <a href="https://instagram.com/g_a_n_e_s_h_n_?igshid=ZGUzMzM3NWJiOQ=="> <span className="bannerIcon">
               <FaInstagram />
             </span></a>
-           <a href="https://www.linkedin.com/in/ganesh-nagargoje-a60531221"> <span className="bannerIcon">
+            <a href="https://www.linkedin.com/in/ganesh-nagargoje-a60531221"> <span className="bannerIcon">
               <FaLinkedin />
             </span></a>
           </div>
         </div>
         <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
-            
+
             Find me in
           </h2>
           <div className="flex gap-4">
