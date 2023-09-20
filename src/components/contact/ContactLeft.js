@@ -14,7 +14,7 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Ganesh nagaargoje</h3>
+        <h3 className="text-3xl font-bold text-white">Ganesh Nagargoje</h3>
         <p className="text-lg ffont-normal text-gray-400">
           Full Stack Java Developer
         </p>
